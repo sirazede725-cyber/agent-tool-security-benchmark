@@ -1,0 +1,12 @@
+[project]
+name = "agent-tool-security-benchmark"
+version = "0.1.0"
+description = "A defensive benchmark for validating AI agent tool calls."
+requires-python = ">=3.10"
+
+[project.scripts]
+agent-tool-bench = "agent_tool_security.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
